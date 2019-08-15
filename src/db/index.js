@@ -10,7 +10,8 @@ exports.connect = async () => {
         db = await mongoose.connect(
             `mongodb+srv://${DB_USER}:${DB_KEY}@${DB_HOST}/${DB_NAME}?retryWrites=true&w=majority`,
             { useNewUrlParser: true }
-        )    
+            )    
+        console.log('db connected')
     }catch( err ){
         console.error('Error creating db conection: ' + err)
         return err
