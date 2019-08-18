@@ -17,7 +17,7 @@ const startServer = async () => {
     app.use(express.urlencoded({extended:true}))
     modulesRegister(app)
     await db.connect()
-    app.listen(APP_PORT, () => {
+    app.listen(PORT, () => {
         console.log(`${APP_NAME} is listening on port ${PORT}`)
     })
 }
