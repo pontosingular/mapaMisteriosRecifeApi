@@ -9,6 +9,7 @@ const modulesRegister = require('./modules')
 const startServer = async () => {
 
     const {PORT, APP_NAME} = process.env
+
     // creating server obj and setting middlewares
     const app = express()
     app.use(cors())
