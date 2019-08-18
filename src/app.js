@@ -9,7 +9,7 @@ const modulesRegister = require('./modules')
 
 const startServer = async () => {
 
-    const {APP_PORT, APP_NAME} = process.env
+    const {PORT, APP_NAME} = process.env
     // creating server obj and setting middlewares
     const app = express()
     app.use(cors())
@@ -18,7 +18,7 @@ const startServer = async () => {
     modulesRegister(app)
     await db.connect()
     app.listen(APP_PORT, () => {
-        console.log(`${APP_NAME} is listening on port ${APP_PORT}`)
+        console.log(`${APP_NAME} is listening on port ${PORT}`)
     })
 }
 
