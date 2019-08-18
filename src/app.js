@@ -6,7 +6,6 @@ require('dotenv/config')
 // module importing
 const modulesRegister = require('./modules')
 
-
 const startServer = async () => {
 
     const {PORT, APP_NAME} = process.env
