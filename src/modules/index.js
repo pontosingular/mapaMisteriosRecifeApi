@@ -2,7 +2,8 @@ const {auth,test} = require('../middlewares/')
 
 const modules = [
     require('./Hello'),
-    require('./Haunt')
+    require('./Haunt'),
+    require('./User')
 ]
 
 module.exports = (app) => {
