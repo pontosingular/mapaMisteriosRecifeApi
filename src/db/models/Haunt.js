@@ -9,6 +9,10 @@ const HauntSchema = new Schema({
         lat: {
             type: Number,
             required: true
+        },
+        lng: {
+            type: Number,
+            required: true
         }
     },
     locationName: {

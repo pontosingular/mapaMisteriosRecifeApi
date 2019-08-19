@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Professor Carrasco" ,
+        "coords": {
+            "lat": -7.135833 ,
+            "lng": -34.874457
+        },
+        "locationName": "IFPB Campus João Pessoa" ,
+        "locationShortName": "IFPB" ,
+        "about": "Professor impiedoso pronto para acabar com a esperança de seus alunos.",
+        "time": "Desconhecido",
+        "range": "50" ,
+        "img": null,
+        "type": "assombracao" 
+    },
+    {
+        "name": "Aluno Desesperado" ,
+        "coords": {
+            "lat": -7.135681 ,
+            "lng": -34.874353
+        },
+        "locationName": "IFPB Campus João Pessoa" ,
+        "locationShortName": "IFPB" ,
+        "about": "Estudante que perdeu a alma para os projetos de disciplina, noites sem dormir e marmitas baratas do IFPB.",
+        "time": "Sec. XXI",
+        "range": "50" ,
+        "img": null,
+        "type": "assombracao" 
+    }
+]
